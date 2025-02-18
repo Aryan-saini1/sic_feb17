@@ -12,4 +12,4 @@ total_sales=tomato_sp+potato_sp+cabbage_sp+sunflowers_sp+sugarcane_sp
 print(f"%-20s ={total_sales}"%("Total Sales"))
 #after 11 months farmer won't have sugarcane as it is not chemical free
 total_sales_chemfree=tomato_sp+potato_sp+cabbage_sp+sunflowers_sp
-print(f"%-20s ={total_sales_chemfree}"%("Total Sales after chemical free"))
+print(f"%-20s ={total_sales_chemfree}"%("Total Sales after chemical free production"))
