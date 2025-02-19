@@ -7,7 +7,7 @@ for i in sorted(set(permutations(n2,len(n2)))):
         res=i
         break
 if res==None:
-    print("No number exist")
+    print("No number exists")
 else:
     res="".join(res)
     print(int(res))
