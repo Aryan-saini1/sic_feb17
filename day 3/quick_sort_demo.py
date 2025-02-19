@@ -1,5 +1,4 @@
 import quick_sort
-
 print('Enter the input numbers')
 numbers = list(map(int, input().split()))
 
