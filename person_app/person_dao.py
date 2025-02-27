@@ -92,7 +92,7 @@ class Db_operations:
 
     def search_row(self, id):
         row = None
-        #id = int(input('Enter Id of the person to search: '))
+        #id = int(input('Enter Id of the person to search:'))
         query = f'select * from persons where id = {id}'
         connection = self.connect_db()
         cursor = connection.cursor()
